@@ -497,31 +497,31 @@ keyword that defines the access level of members (attributes and methods) in the
 - To call base class's parameterized constructor, we use the member initialization list.
 - Prototype: 
 
-      - ```cpp
-            class Base{
-                public:
-                    Base(){
-                        cout<<"Base class's default constructor"<<endl;
-                    }
-                    Base(int x){
-                        cout<<"Base class's parameterized constructor"<<endl;
-                    }
-            };
-            class Derived: public Base{
-                public:
-                    Derived(){
-                        cout<<"Derived class's default constructor"<<endl;
-                    }
-                    Derived(int x): Base(x){
-                        cout<<"Derived class's parameterized constructor"<<endl;
-                    }
-            };
-            int main(){
-                Derived d1;
-                Derived d2(10);
-                return 0;
-            }
-            ```
+  - ```cpp
+        class Base{
+            public:
+                Base(){
+                    cout<<"Base class's default constructor"<<endl;
+                }
+                Base(int x){
+                    cout<<"Base class's parameterized constructor"<<endl;
+                }
+        };
+        class Derived: public Base{
+            public:
+                Derived(){
+                    cout<<"Derived class's default constructor"<<endl;
+                }
+                Derived(int x): Base(x){
+                    cout<<"Derived class's parameterized constructor"<<endl;
+                }
+        };
+        int main(){
+            Derived d1;
+            Derived d2(10);
+            return 0;
+        }
+        ```
         - output
             - ```cpp
                 Base class's default constructor
