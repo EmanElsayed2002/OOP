@@ -1,6 +1,6 @@
 
 ## What is Object Oriented Programming ?
-- Object oriented programming is a programming paradigm based on the concept of "objects", which can contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods.
+- Object oriented programming is a programming paradigm based on the concept of "objects", which can contain data, in the form of fields, often known as attributes; and in the form of procedures, often known as methods.
 - Object oriented programming is a style of programming where we use objects to model real world things that we want to represent inside our programs and/or provide a simple way to access functionality that would otherwise be hard or impossible to make use of.
 
 
